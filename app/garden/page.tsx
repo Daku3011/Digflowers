@@ -1,8 +1,9 @@
-// app/bouquet/page.tsx
 import { supabase } from "@/lib/supabase";
 import Image from "next/image";
 import Link from "next/link";
 import BouquetOnly from "../../components/bouquet/BouquetOnly";
+
+export const dynamic = "force-dynamic";
 
 export default async function AllBouquetsPage() {
   const { data, error } = await supabase
