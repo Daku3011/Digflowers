@@ -39,7 +39,7 @@ export default async function BouquetPage(props: Params) {
       </Link>
       <h2 className="text-lg mb-14 ">Hi, I made this bouquet for you!</h2>
       <Bouquet bouquet={data} />
-      <p className="text-sm text-gray-500">
+      {/* <p className="text-sm text-gray-500">
         made with digibouquet, a tool by{" "}
         <Link
           href="https://x.com/pau_wee_"
@@ -47,7 +47,7 @@ export default async function BouquetPage(props: Params) {
         >
           @pau_wee_
         </Link>
-      </p>
+      </p> */}
       <Link href="/" className="text-sm underline text-gray-500 mt-2">
         make a bouquet now!
       </Link>
